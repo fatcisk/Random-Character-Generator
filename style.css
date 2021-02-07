@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: roboto;
+}
+
+.container {
+  height: 100vh;
+}
+
+.character {
+  position: relative;
+  top: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.generate-btn {
+  color: white;
+  position: absolute;
+  top: 580px;
+  background: #ffa500;
+  height: 70px;
+  width: 200px;
+  font-weight: 700;
+  font-size: 35px;
+  border-radius: 50px;
+  border: none;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.character-placeholder {
+  height: 500px;
+  text-align: center;
+}
+
+.gm-btn,
+.gfm-btn {
+  font-size: 22px;
+  font-weight: 700;
+  width: 150px;
+  height: 50px;
+  display: block;
+  margin-bottom: 7px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: 0.2s;
+}
+
+h1 {
+  margin-bottom: 7px;
+  font-size: 25px;
+}
+
+.gender {
+  position: absolute;
+  text-align: center;
+  top: 220px;
+  left: 600px;
+  z-index: 2;
+}
+
+.s-btn {
+  font-size: 22px;
+  font-weight: 700;
+  width: 150px;
+  height: 50px;
+  display: block;
+  margin-bottom: 7px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: 0.2s;
+}
+
+.style {
+  position: absolute;
+  text-align: center;
+  top: 420px;
+  left: 600px;
+  z-index: 2;
+}
+
+.gl-btn {
+  font-size: 22px;
+  font-weight: 700;
+  width: 150px;
+  height: 50px;
+  display: block;
+  margin-bottom: 7px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: 0.2s;
+}
+
+.glasses {
+  position: absolute;
+  text-align: center;
+  top: 220px;
+  right: 600px;
+  z-index: 2;
+}
+
+.g-btn:hover,
+.gl-btn:hover,
+.s-btn:hover {
+  transform: scale(1.1);
+}
+
+.g-btn:active,
+.gl-btn:active,
+.s-btn:active {
+  transform: scale(1.2);
+}
+
+.g-btn:focus,
+.gl-btn:focus,
+.s-btn:focus {
+  outline: none;
+}
+
+.generate-btn:hover {
+  transform: scale(1.1);
+}
+
+.generate-btn:active {
+  transform: scale(1.2);
+}
+
+.generate-btn:focus {
+  outline: none;
+}
+
+.gmbtn-active {
+  border: none;
+  color: white;
+  background-color: #ffa500;
+}
+
+.btn-active {
+  border: none;
+  color: white;
+  background-color: #ffa500;
+}
